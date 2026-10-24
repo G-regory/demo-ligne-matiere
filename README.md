@@ -1,17 +1,13 @@
 # LIGNE & MATIÈRE
 
-Concept de démonstration pour un studio de design intérieur fictif. Tous les espaces, textes et visuels sont originaux et fictifs. Aucune donnée n’est collectée.
+Site statique de démonstration pour une agence d’architecture fictive. La marque, les études et les projets présentés sont entièrement fictifs. Aucune donnée saisie dans le formulaire n’est transmise.
 
-## Aperçu local
+## Consulter le site
 
-Depuis ce dossier :
+Ouvrir `index.html` directement dans un navigateur, ou servir ce dossier avec un serveur statique, par exemple :
 
 ```sh
 node ../scripts/serve.mjs .
 ```
 
-Ou ouvrir directement `index.html` dans un navigateur. Le site n’utilise aucun build ni dépendance distante.
-
-## Déploiement
-
-Le dossier est prêt pour un hébergement statique. `netlify.toml` publie la racine (`.`).
+Le site ne requiert aucune dépendance, compilation ni ressource distante.
